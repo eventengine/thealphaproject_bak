@@ -1,4 +1,4 @@
-/**
+﻿/**
  * ASP.NET Core Starter Kit (https://dotnetreact.com)
  *
  * Copyright © 2014-present Kriasoft, LLC. All rights reserved.
@@ -110,7 +110,7 @@ tasks.set('publish', () => {
   global.DEBUG = process.argv.includes('--debug') || false;
   const remote = {
     name: 'azure',
-    url: 'https://<user>@<app>.scm.azurewebsites.net:443/<app>.git', // TODO: Update deployment URL
+    url: 'https://omarsiddiqi@thealphaproject.scm.azurewebsites.net:443/thealphaproject.git', // Updated to local azure deployment url
   };
   const opts = { cwd: path.resolve(__dirname, './build'), stdio: ['ignore', 'inherit', 'inherit'] };
   const git = (...args) => new Promise((resolve, reject) => {
